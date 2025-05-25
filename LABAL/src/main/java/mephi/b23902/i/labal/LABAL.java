@@ -1,17 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package mephi.b23902.i.labal;
 
+import javax.swing.SwingUtilities;
+import view.MonsterDatabaseWindow;
 
-/**
- *
- * @author tsyga
- */
 public class LABAL {
-
     public static void main(String[] args) {
-        
+        SwingUtilities.invokeLater(() -> {
+            MonsterDatabaseWindow window = new MonsterDatabaseWindow();
+            window.setVisible(true);
+        });
     }
 }
