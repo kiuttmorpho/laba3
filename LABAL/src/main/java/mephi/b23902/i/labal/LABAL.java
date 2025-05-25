@@ -4,7 +4,6 @@
 
 package mephi.b23902.i.labal;
 
-import controller.Controller;
 
 /**
  *
@@ -13,6 +12,6 @@ import controller.Controller;
 public class LABAL {
 
     public static void main(String[] args) {
-        Controller.main(args);
+        
     }
 }
